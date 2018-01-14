@@ -64,6 +64,7 @@ allprojects {
         plugin("edu.wpi.first.wpilib.versioning.WPILibVersioningPlugin")
     }
     repositories {
+        mavenLocal()
         mavenCentral()
     }
 
